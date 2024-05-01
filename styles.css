@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@700&family=Nunito+Sans:ital,opsz,wght@0,6..12,300;1,6..12,300&display=swap');
+
+html {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+body {
+    max-width: 850px;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kreon', sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    margin: 0;
+    line-height: 4rem;
+    text-indent: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.nav-bar {
+    background-color: black;
+    text-align: end;
+    padding: .4rem;
+}
+
+.nav-links {
+    font-size: .67rem;
+    color: white;
+    text-align: right;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: .27rem;
+}
+
+.banner-presentation {
+    text-align: center;
+    color: white;
+    position: relative; 
+}
+
+.banner-presentation img {
+    width: 850px;
+	height: 550px;
+    max-width: 100%;
+}
+
+.banner-presentation-text {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-presentation-text p {
+    margin: 0;
+}
+
+.second-header {
+    text-align: center;
+    padding: 0px 10px 20px 10px;
+}
+
+.second-header h2 {
+	font-size: 2rem;
+}
+
+.food-content {
+    display: flow-root;
+}
+
+.food-content-text {
+    display: inline-block;
+    width: 50%;
+    padding-top: 20px;
+}
+
+.food-content-text h2, .food-content-text p {
+    padding-left: .67rem;
+    padding-right: .67rem;
+}
+
+.food-content-text h2 {
+	font-size: 1.80rem;
+}
+
+.food-content-text p {
+	font-size: .90rem;	
+}
+
+.left {
+    width: 50%;
+    float: left;
+}
+
+.right {
+    width: 50%;
+    float: right;
+}
+
+.food-content-text-menu {
+	padding-top: 1rem;
+	padding-left: 3rem;
+}
+
+.food-content-text-menu ul {
+	list-style-type: none;
+}
+
+.food-content-text-menu ul li {
+	margin-bottom: .87rem;
+}
+
+footer {
+	border: auto;
+    color: white;
+    font-size: .47rem;
+    text-align: center;
+    background-color: black;
+    padding: .1rem;
+}
+
